@@ -43,6 +43,14 @@ class ModuleLogo extends \Module
 	 */
 	public function generate()
 	{
+		if (TL_MODE == 'BE')
+		{
+			$objTemplate = new \BackendTemplate('be_wildcard');
+			$objTemplate->wildcard = '### LOGO MODULE ###';
+
+			return $objTemplate->parse();
+		}
+		
 		if ($this->singleSRC == '')
 		{
 			return '';
