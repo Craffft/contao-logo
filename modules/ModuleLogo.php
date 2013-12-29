@@ -3,12 +3,12 @@
 /**
  * Contao Open Source CMS
  * 
- * Copyright (C) 2005-2012 Leo Feyer
+ * Copyright (C) 2005-2014 Leo Feyer
  * 
- * @package   logo 
- * @author    Daniel Kiesel 
- * @license   LGPL 
- * @copyright Daniel Kiesel 2012 
+ * @package    logo 
+ * @author     Daniel Kiesel <https://github.com/icodr8> 
+ * @license    LGPL 
+ * @copyright  Daniel Kiesel 2012 
  */
 
 
@@ -21,8 +21,8 @@ namespace logo;
 /**
  * Class ModuleLogo 
  *
- * @copyright  Daniel Kiesel 2012 
- * @author     Daniel Kiesel 
+ * @copyright  Daniel Kiesel 2012-2014
+ * @author     Daniel Kiesel <https://github.com/icodr8>
  * @package    Devtools
  */
 class ModuleLogo extends \Module 
