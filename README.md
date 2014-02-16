@@ -1,7 +1,7 @@
-Logo Contao Extension
+Logo module for Contao OpenSource CMS
 ==========================
 
-Adds a logo frontend module to Contao
+Adds a logo frontend module for Contao OpenSource CMS
 
 License
 -------
