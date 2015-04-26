@@ -6,7 +6,7 @@
  * Copyright (C) 2005-2014 Leo Feyer
  *
  * @package    logo
- * @author     Daniel Kiesel <https://github.com/icodr8>
+ * @author     Daniel Kiesel <daniel@craffft.de>
  * @license    LGPL
  * @copyright  Daniel Kiesel 2012
  */
@@ -22,7 +22,7 @@ namespace logo;
  * Class ModuleLogo
  *
  * @copyright  Daniel Kiesel 2012-2014
- * @author     Daniel Kiesel <https://github.com/icodr8>
+ * @author     Daniel Kiesel <daniel@craffft.de>
  * @package    Devtools
  */
 class ModuleLogo extends \Module
