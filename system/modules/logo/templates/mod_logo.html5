@@ -1,14 +1,14 @@
-
 <!-- indexer::stop -->
-<section class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
-	<figure class="image_container">
-		<?php if ($this->href): ?>
-			<a href="<?php echo $this->href; ?>" title="<?php echo $this->alt; ?>">
-		<?php endif; ?>
-			<img src="<?php echo $this->src; ?>"<?php echo $this->imgSize; ?> alt="<?php echo $this->alt; ?>" />
-		<?php if ($this->href): ?>
-			</a>
-		<?php endif; ?>
-	</figure>
+<section
+        class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+<figure class="image_container">
+  <?php if ($this->href): ?>
+  <a href="<?php echo $this->href; ?>" title="<?php echo $this->alt; ?>">
+    <?php endif; ?>
+    <img src="<?php echo $this->src; ?>"<?php echo $this->imgSize; ?> alt="<?php echo $this->alt; ?>" />
+    <?php if ($this->href): ?>
+  </a>
+  <?php endif; ?>
+</figure>
 </section>
 <!-- indexer::continue -->

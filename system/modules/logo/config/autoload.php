@@ -2,9 +2,9 @@
 
 /**
  * Contao Open Source CMS
- * 
+ *
  * Copyright (C) 2005-2014 Leo Feyer
- * 
+ *
  * @package Logo
  * @link    http://contao.org
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
@@ -16,7 +16,7 @@
  */
 ClassLoader::addNamespaces(array
 (
-	'logo',
+    'logo',
 ));
 
 
@@ -25,8 +25,8 @@ ClassLoader::addNamespaces(array
  */
 ClassLoader::addClasses(array
 (
-	// Modules
-	'logo\ModuleLogo' => 'system/modules/logo/modules/ModuleLogo.php',
+    // Modules
+    'logo\ModuleLogo' => 'system/modules/logo/modules/ModuleLogo.php',
 ));
 
 
@@ -35,5 +35,5 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'mod_logo' => 'system/modules/logo/templates',
+    'mod_logo' => 'system/modules/logo/templates',
 ));
